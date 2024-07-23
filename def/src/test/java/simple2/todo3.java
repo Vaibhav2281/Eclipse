@@ -5,6 +5,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -21,8 +22,8 @@ public class todo3 {
 
     @BeforeMethod
     public void setup(Method m, ITestContext ctx) throws MalformedURLException {
-        System.setProperty("webdriver.edgedriver.driver", "D:\\Edge Driver\\msedgedriver.exe");
-        driver = new EdgeDriver();
+        System.setProperty("webdriver.chrome.driver", "D:\\chromedriver\\chromedriver.exe");
+        driver = new ChromeDriver();
     }
 
     

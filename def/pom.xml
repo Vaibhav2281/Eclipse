@@ -37,7 +37,8 @@
         <version>3.3.1</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>${fileName}</suiteXmlFile>
+            <!-- <suiteXmlFile>${fileName}</suiteXmlFile>-->
+            <suiteXmlFile>single1.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
